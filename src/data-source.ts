@@ -4,11 +4,8 @@ import { User } from "./entity/User"
 
 export const AppDataSource = new DataSource({
     type: "sqlite",
-    // host: "localhost",
-    // port: 5432,
-    // username: "test",
-    // password: "test",
-    database: "./",
+
+    database: "./db.sqlite",
     synchronize: true,
     logging: false,
     entities: [User],

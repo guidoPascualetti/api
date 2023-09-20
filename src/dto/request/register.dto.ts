@@ -3,4 +3,5 @@ export class RegisterDTO {
     email: string;
     password: string;
     passwordConfirm: string;
+    age: number;
 }
